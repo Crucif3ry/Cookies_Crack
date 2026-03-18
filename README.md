@@ -1,2 +1,2 @@
-# ⛩️ Amaterasu
-Amaterasu for crack Flask cookies.
+# Flask Cookies Crack
+crack Flask cookies
