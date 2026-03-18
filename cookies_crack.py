@@ -6,15 +6,6 @@ from flask.json.tag import TaggedJSONSerializer
 from itsdangerous import URLSafeTimedSerializer, BadSignature, TimestampSigner
 from tqdm import tqdm
 
-print("""                           _                           
-     /\                   | |                          
-    /  \   _ __ ___   __ _| |_ ___ _ __ __ _ ___ _   _ 
-   / /\ \ | '_ ` _ \ / _` | __/ _ \ '__/ _` / __| | | |
-  / ____ \| | | | | | (_| | ||  __/ | | (_| \__ \ |_| |
- /_/    \_\_| |_| |_|\__,_|\__\___|_|  \__,_|___/\__,_|
-                                                       
-                                                       """)
-print("""天照 by Crucifery for crack Flask cookies""")
 
 def decode(cookies):
     data = cookies.split(".")
